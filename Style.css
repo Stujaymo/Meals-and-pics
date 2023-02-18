@@ -1,0 +1,57 @@
+/*
+Author : Stuart Roberts - this is a style document for meals and pictures
+*/
+*{
+    color:rgb(17, 1, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height:100%;
+    margin:0px;
+    background-color: rgb(7, 7, 7);
+}
+
+h1{
+    font-size: 8em;
+    margin: 0;
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    color: white;
+}
+
+p{
+    padding:1em;
+    font-size:1em;
+}
+
+#bg{
+    background-image: url(ice-cream.jpg);
+    background:url(ice-cream.jpg);
+    height:125%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel{
+    width: 35%;
+    height:auto;
+    margin-left:10em;
+    margin-right:2em;
+    background-color:whitesmoke;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#meal-list{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+    margin-bottom:2em;
+}
+
+#image-container{
+    display: none;
+}
