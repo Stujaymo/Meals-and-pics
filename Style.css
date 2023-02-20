@@ -9,7 +9,7 @@ Author : Stuart Roberts - this is a style document for meals and pictures
 html,body{
     height:100%;
     margin:0px;
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(47, 108, 143);
 }
 
 h1{
@@ -17,12 +17,14 @@ h1{
     margin: 0;
     margin-bottom: 1.5em;
     padding: 0.5em;
-    color: white;
+    text-shadow: 3px 3px 6px #000000;
+    color: rgb(47, 108, 143);
+
 }
 
 p{
     padding:1em;
-    font-size:1em;
+    font-size:1.5em;
 }
 
 #bg{
@@ -41,7 +43,7 @@ p{
     margin-right:2em;
     background-color:whitesmoke;
     padding: 1em;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #meal-list{
